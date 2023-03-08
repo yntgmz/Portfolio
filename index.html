@@ -1,103 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Yanet Gomez</title>
+    <title>YANET GOMEZ</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background-color: #00498f;
-        color: white;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      header h1 {
+      h1 {
+        text-align: center;
         font-size: 48px;
-        margin: 0;
+        margin-top: 50px;
       }
 
-      .logo-buttons {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 200px;
-      }
-
-      .logo-buttons a {
-        color: white;
-        text-decoration: none;
+      h2 {
+        text-align: center;
         font-size: 24px;
-      }
-
-      .timeline {
-        background-color: #f2f2f2;
-        padding: 50px;
-      }
-
-      .timeline h2 {
-        font-size: 36px;
-        margin-top: 0;
-      }
-
-      .timeline ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .timeline li {
-        position: relative;
+        margin-top: 20px;
         margin-bottom: 50px;
       }
 
-      .timeline li::before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translateX(-50%);
-        width: 3px;
-        height: 100%;
-        background-color: #00498f;
-      }
-
-      .timeline li div {
+      .container {
         display: flex;
-        align-items: center;
-      }
-
-      .timeline li div:first-child {
-        margin-right: 20px;
-      }
-
-      .timeline li h3 {
-        font-size: 24px;
-        margin: 0;
-      }
-
-      .timeline li p {
-        font-size: 18px;
-        margin: 0;
-        margin-top: 5px;
-      }
-
-      .portfolio {
-        padding: 50px;
-        display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
       }
 
-      .portfolio .box {
+      .box {
         width: 400px;
         height: 400px;
         margin: 20px;
@@ -108,7 +34,7 @@
         flex-direction: column;
       }
 
-      .portfolio .box a {
+      .box a {
         text-decoration: none;
         color: black;
         font-size: 24px;
@@ -117,17 +43,21 @@
     </style>
   </head>
   <body>
-    <header>
-      <h1>Yanet Gomez</h1>
-      <div class="logo-buttons">
-        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn logo"></a>
-        <a href="https://github.com/yntgmz" target="_blank"><img src="github-logo.png" alt="GitHub logo"></a>
-        <a href="https://www.kaggle.com/yanetgomez" target="_blank"><img src="kaggle-logo.png" alt="Kaggle logo"></a>
+    <h1>PORTFOLIO</h1>
+    <h2>Student Work</h2>
+    <div class="container">
+      <div class="box">
+        <iframe src="https://public.tableau.com/app/profile/yanet.gomez/viz/GHGEmissions_15820762591170/Final-Story" width="100%" height="100%"></iframe>
+        <a href="https://public.tableau.com/app/profile/yanet.gomez/viz/GHGEmissions_15820762591170/Final-Story">Greenhouse Gas Emissions Dashboard</a>
       </div>
-    </header>
-    <div class="timeline">
-      <h2>Professional Timeline</h2>
-      <ul>
-        <li>
-          <div>
-            <h3>Master of Data Analysis, UHD
+      <div class="box">
+        <iframe src="https://github.com/yntgmz/CarSales/blob/main/CarSales_Project.md" width="100%" height="100%"></iframe>
+        <a href="https://github.com/yntgmz/CarSales/blob/main/CarSales_Project.md">Car Sales Analysis Project</a>
+      </div>
+      <div class="box">
+        <iframe src="https://yntgmz.github.io/House_Prices_Project_Book/" width="100%" height="100%"></iframe>
+        <a href="https://yntgmz.github.io/House_Prices_Project_Book/">House Prices Analysis Project</a>
+      </div>
+    </div>
+  </body>
+</html>
